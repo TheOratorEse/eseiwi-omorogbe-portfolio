@@ -12,6 +12,12 @@ function App() {
       tech: ["Python", "Flask", "Backend Api", "JWT"]
     },
     {
+      title: "Fit2Feet Backend",
+      description: "A backend service for the Fit2Feet mobile application, handling user data and shoe size recommendations.",
+      link: "https://github.com/TheOratorEse/fit2feetserver",
+      tech: ["Python", "Flask", "Machine Learning", "OpenCv Python"]
+    },
+    {
       title: "Inventory Management System",
       description: "A web-based inventory management system with real-time stock tracking and automated reordering capabilities.",
       link: "https://github.com/TheOratorEse/inventory-management-system",
@@ -27,10 +33,22 @@ function App() {
 
   const mobileProjects = [
     {
+      title: "Citi Pass App",
+      description: "City Pass App is a comprehensive digital solution designed to streamline the management of visitor access in gated communities and residential estates. The application provides a secure and efficient way to generate, manage, and verify gate passes for visitors, while keeping residents and administrators connected through a robust notification system.",
+      link: "https://github.com/TheOratorEse/city-pass-app",
+      tech: ["Flutter", "Firebase", "Supabase"]
+    },
+    {
+      title: "WebView App",
+      description: "A mobile application that utilizes WebView to convert existing webApp to a Mobile app, display web content, providing a seamless browsing experience.",
+      link: "https://github.com/TheOratorEse/webview_app",
+      tech: ["Flutter", "Javascript", "WebView", "Firebase"]
+    },
+    {
       title: "Fit2Feet",
-      description: "A mobile application for managing deliveries with real-time tracking and automated dispatch system.",
+      description: "A mobile application for fitness enthusiasts, feet measurement, and shoe size recommendations.",
       link: "https://github.com/TheOratorEse/delivery-app",
-      tech: ["Flutter", "Provider", "Python", "MongoDB"]
+      tech: ["Flutter", "Provider", "Python", "Flask", "Machine Learning"]
     },
     {
       title: "Food Recipe App",
@@ -38,11 +56,24 @@ function App() {
       link: "https://github.com/TheOratorEse/food-recipe-app",
       tech: ["Flutter", "Firebase", "Node.js"]
     },
+
+    {
+      title: "Taski Manager App",
+      description: "A task management application that helps users organize and prioritize their tasks efficiently.",
+      link: "https://github.com/TheOratorEse/taski-manager-app",
+      tech: ["Flutter", "Supabase", "Sqflite", "Provider"]
+    },
     {
       title: "Weather Mobile App",
       description: "A weather forecasting application with location-based services and detailed weather information.",
       link: "https://github.com/TheOratorEse/weather-mobile-app",
-      tech: ["Flutter", "Provider", "Weather API", "Geolocation"]
+      tech: ["Flutter", "Provider", "Weather API", "Geolocation", "Firebase"]
+    },
+    {
+      title: "CycleKit Mobile App",
+      description: "A mobile application for Tracking female cycle, ovulation, fertility and getting sanitary products.",
+      link: "https://github.com/TheOratorEse/cyclekit",
+      tech: ["React Native", "Redux", "Node.js"]
     }
   ];
 
@@ -173,7 +204,7 @@ function App() {
             View Resume
           </a>
           <a href="https://linkedin.com/in/eseiwi-omorogbe" 
-             target="_blank"
+             target="LinkedIn Profile"
              className="inline-flex items-center bg-purple-600 px-6 py-3 rounded-lg hover:bg-purple-500 transition-colors">
             <Linkedin className="mr-2" size={20} />
             LinkedIn Profile
